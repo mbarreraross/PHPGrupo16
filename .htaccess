@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond $1 !^(public|app|favicon\.ico|favicon\.png|media|robots\.txt|crossdomain\.xml|public|css|js|vendor)
+RewriteRule ^(.*)$ index.php?rt=$1 [L,QSA] 

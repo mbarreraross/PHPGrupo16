@@ -1,0 +1,6 @@
+{
+    "require": {
+        "almasaeed2010/adminlte": "~2.0",
+        "codeception/codeception": "^2.1"
+    }
+}
